@@ -46,7 +46,7 @@ function Button() {
     node.appendChild(childNode);
     node.setAttribute("class", "emoji");
     node.style.top = Math.floor(Math.random() * 90) + "vh";
-    node.style.left = Math.floor(Math.random() * 92) + "vw";
+    node.style.left = Math.floor(Math.random() * 95) + "vw";
     document.getElementById("body").appendChild(node);
   }
   return (
