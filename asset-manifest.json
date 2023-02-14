@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EMOJIIIII/static/css/main.fc7d4a13.css",
+    "main.js": "/EMOJIIIII/static/js/main.455cf54c.js",
+    "static/js/787.3deff2bd.chunk.js": "/EMOJIIIII/static/js/787.3deff2bd.chunk.js",
+    "index.html": "/EMOJIIIII/index.html",
+    "main.fc7d4a13.css.map": "/EMOJIIIII/static/css/main.fc7d4a13.css.map",
+    "main.455cf54c.js.map": "/EMOJIIIII/static/js/main.455cf54c.js.map",
+    "787.3deff2bd.chunk.js.map": "/EMOJIIIII/static/js/787.3deff2bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc7d4a13.css",
+    "static/js/main.455cf54c.js"
+  ]
+}
