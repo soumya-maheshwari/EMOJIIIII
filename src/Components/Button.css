@@ -1,0 +1,17 @@
+.click {
+  display: inline;
+  padding: 10px;
+  font-size: medium;
+  color: azure;
+  background-color: blue;
+  border: 0;
+  border-radius: 20px;
+  height: auto;
+  width: 80%;
+  box-shadow: 0 5px darkblue;
+}
+
+.click:hover {
+  cursor: pointer;
+  background-color: purple;
+}
