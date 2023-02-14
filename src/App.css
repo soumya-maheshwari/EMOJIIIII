@@ -13,11 +13,11 @@
 
 body {
   display: flex;
-  background-color: #0f0026;
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-image: url("https://www.transparenttextures.compatterns/asfalt-light.png");
+  background-color: #0036bf;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
 }
 
 .container {

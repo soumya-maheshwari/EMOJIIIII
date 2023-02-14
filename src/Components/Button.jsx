@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Button.css";
-import Emoji from "./Emoji";
 const emojis = [
   "❤️",
   "😍",
@@ -17,6 +16,18 @@ const emojis = [
   "😢",
   "😱",
   "😧",
+  "🤫",
+  "🥺",
+  "😐",
+  "😬",
+  "🙄",
+  "😯",
+  "😦",
+  "😧",
+  "😲",
+  "🥱",
+  "😴",
+  "😵‍💫",
 ];
 
 function Button() {
@@ -24,18 +35,18 @@ function Button() {
 
   function handleClick() {
     setCount((prevCount) => prevCount + 1);
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 4; i++) {
       randomEmoji();
     }
   }
   function randomEmoji() {
     const node = document.createElement("div");
-    const random = Math.floor(Math.random() * 15);
+    const random = Math.floor(Math.random() * 25);
     const childNode = document.createTextNode(emojis[random]);
     node.appendChild(childNode);
     node.setAttribute("class", "emoji");
     node.style.top = Math.floor(Math.random() * 90) + "vh";
-    node.style.left = Math.floor(Math.random() * 90) + "vh";
+    node.style.left = Math.floor(Math.random() * 92) + "vw";
     document.getElementById("body").appendChild(node);
   }
   return (
